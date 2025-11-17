@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       image: 'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com',
-      demo: 'https://example.com'
+      path: '/personal-website/projects/ecommerce-platform'
     },
     {
       title: 'Task Management App',
@@ -17,7 +17,7 @@ const Projects = () => {
       tech: ['Vue.js', 'Firebase', 'Vuetify', 'WebSockets'],
       image: 'https://images.pexels.com/photos/5582478/pexels-photo-5582478.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com',
-      demo: 'https://example.com'
+      path: '/personal-website/projects/task-management-app'
     },
     {
       title: 'Weather Forecast App',
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ['React', 'TypeScript', 'Weather API', 'Chart.js'],
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com',
-      demo: 'https://example.com'
+      path: '/personal-website/projects/weather-forecast-app'
     }
   ];
 
@@ -63,7 +63,7 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <a 
+                  <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -72,15 +72,14 @@ const Projects = () => {
                     <Github size={16} />
                     <span>Code</span>
                   </a>
-                  <a 
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
+
+                  <Link
+                    to={project.path}
                     className="flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors"
                   >
                     <ExternalLink size={16} />
-                    <span>Demo</span>
-                  </a>
+                    <span>Details</span>
+                  </Link>
                 </div>
               </div>
             </div>

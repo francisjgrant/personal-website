@@ -1,6 +1,3 @@
-import React from 'react';
-import { Heart } from 'lucide-react';
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
