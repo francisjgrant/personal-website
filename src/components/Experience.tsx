@@ -1,4 +1,3 @@
-import React from 'react';
 import { Calendar, GraduationCap, Briefcase } from 'lucide-react';
 
 const Experience = () => {

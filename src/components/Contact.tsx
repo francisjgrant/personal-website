@@ -91,18 +91,18 @@ const Contact = () => {
             <div className="mt-12">
               <h4 className="text-lg font-medium text-gray-900 mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-900 text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                   <Github size={20} />
-                </a>
+                </a> */}
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
                   className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                   className="w-10 h-10 bg-sky-500 text-white rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors">
                   <Twitter size={20} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

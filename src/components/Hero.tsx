@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail, } from 'lucide-react';
 
 const Hero = () => {
@@ -19,7 +18,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center space-x-6 mb-12">
-          <a 
+          {/* <a 
             href="https://github.com" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -27,7 +26,7 @@ const Hero = () => {
           >
             <Github size={20} />
             <span>GitHub</span>
-          </a>
+          </a> */}
           <a 
             href="https://www.linkedin.com/in/francis-grant-38303832b/" 
             target="_blank" 

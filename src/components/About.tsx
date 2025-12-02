@@ -16,11 +16,10 @@ const About = () => {
             <p className="text-lg text-gray-700 mb-6">
               I'm currently pursuing my Bachelor's degree in Software Engineering, with a focus on 
               full-stack development and modern technologies. My journey in tech started in high school 
-              when I built my first website, and I've been hooked ever since.
+              when I built my first computer, and I've been hooked ever since.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-              projects, or working on personal projects that solve real-world problems. I believe in 
+              When I'm not coding, you can find me exploring new technologies, or looking into breakthroughs in the tech space. I believe in 
               continuous learning and staying up-to-date with the latest industry trends.
             </p>
             <p className="text-lg text-gray-700">
