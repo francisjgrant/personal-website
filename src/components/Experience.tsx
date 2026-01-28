@@ -21,7 +21,7 @@ const Experience = () => {
     {
       type: 'work',
       title: 'Packer',
-      organization: 'Teknio-Plex',
+      organization: 'Tekni-Plex',
       period: 'July 2023 - August 2023',
       description: 'Ensured quality control and efficiency in a fast-paced manufacturing environment. ',
       highlights: ['Summer factory job', 'First workforce experience', 'Gained insight into manufacturing processes']
@@ -32,7 +32,7 @@ const Experience = () => {
       organization: 'Dublin Corners Farm Brewery',
       period: '2016 - 2023',
       description: 'Washed fermentation and brewing system tanks, maintaining high standards of cleanliness and safety.',
-      highlights: ['Family Business', 'Engrained good work ethic']
+      highlights: ['Family Business', 'Ingrained good work ethic']
     }
   ];
 
